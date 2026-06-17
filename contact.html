@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კონტაქტი | Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="images.png" alt="Logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">მთავარი</a></li>
+                    <li><a href="about.html">ჩვენ შესახებ</a></li>
+                    <li><a href="services.html">სერვისები</a></li>
+                    <li><a href="news.html">სიახლეები</a></li>
+                    <li><a href="contact.html">კონტაქტი</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="section-title">დაგვიკავშირდით</h1>
+        
+        <div class="grid-3" style="margin-bottom: 50px; text-align: center;">
+            <div class="card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>მისამართი</h3>
+                <p>თბილისი, საქართველო</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>ტელეფონი</h3>
+                <p>+995 555 123 456</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>ელ-ფოსტა</h3>
+                <p>tbilisi.ac@gmail.com</p>
+            </div>
+        </div>
+
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">სახელი, გვარი:</label>
+                <input type="text" id="name" name="name" required placeholder="ჩაწერეთ აქ...">
+            </div>
+            <div class="form-group">
+                <label for="email">ელ-ფოსტა:</label>
+                <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="message">შეტყობინება:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="თქვენი შეტყობინება..."></textarea>
+            </div>
+            <button type="submit" class="btn" style="border: none; width: 100%; cursor: pointer;">გაგზავნა</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 American Corner Tbilisi. ყველა უფლება დაცულია.</p>
+    </footer>
+
+</body>
+</html>
